@@ -10,6 +10,8 @@
 .skills{
     border:1px solid gray;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .title{
     background-color: #cacaca;

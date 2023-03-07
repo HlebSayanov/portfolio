@@ -1,9 +1,13 @@
-.skill{
+.skill {
     width: 250px;
-   background-color: #ffd7e9;
+    background-color: #ffd7e9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.icon{
+.icon {
     width: 60px;
     height: 60px;
     background-color: gray;
