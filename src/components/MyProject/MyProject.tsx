@@ -9,6 +9,9 @@ export const MyProject = () => {
                 <h2>My Project</h2>
             <div className={style.projects}>
                 <Project/>
+                <Project/>
+                <Project/>
+
 
 
             </div>

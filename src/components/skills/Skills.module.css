@@ -3,6 +3,7 @@
     background-color: blanchedalmond;
 }
 .skillsContainer{
+    display: flex;
     justify-content: flex-start;
     /*align-items: center;*/
     flex-direction: column;
@@ -10,8 +11,10 @@
 .skills{
     border:1px solid gray;
     width: 100%;
+
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .title{
     background-color: #cacaca;
