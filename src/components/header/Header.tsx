@@ -1,14 +1,16 @@
 import React from 'react';
-import styles from './Header.module.css'
-import {Nav} from "../nav/Nav";
+import s from './Header.module.css'
+import {Nav} from "./Navigation/Nav";
 
+type HeaderType = {
 
+}
 
-export const Header = () => {
+export const Header = (props: HeaderType) => {
     return (
-        <div className={styles.header}>
-                <Nav/>
-            </div>
+        <div className={s.header}>
+            <Nav/>
+        </div>
     );
 };
 
